@@ -107,7 +107,11 @@ fieldset {
 
 .no-line {
   text-decoration: none;
-  color: #6e8c62;
+  color: #145b1d;
+}
+
+.no-display {
+  display: none;
 }
 
 @media only screen and (min-width: 38em) {
