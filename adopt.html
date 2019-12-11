@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Animal Rescue</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+</head>
+<body>
+
+  <header class="masthead grid grid-middle island-1-2">
+    <div class="logo unit xs-1 s-1 m-1 l-1-4">
+      <h1 class="push-0 gutter-1-4 pad-b-1-4">Loyal Rescue</h1>
+    </div>
+    <nav class="nav unit xs-1 s-1 m-1 l-3-4">
+      <ul class="list-group-inline push-0">
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="rescue.html">Rescue</a>
+        </li>
+        <li class="island-1-8">
+          <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="adopt.html">Adopt</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main role="main" id="main">
+    <div class="sign-up max-length text-center">
+      <section class="register">
+        <div>
+          <header>
+            <div class="header island-1-2">
+              <h1 class="exa bold push-1-2 pad-t-1-2">Adoption Application</h1>
+              <p class="mega bold push-1-2 pad-b-1-2">Adopting a rescued dog or cat is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+            </div>
+          </header>
+          <form class="push-0 gutter-1-2" method="POST" action="https://formspree.io/nguy0779@algonquinlive.com">
+
+            <div>
+              <h2 class="giga bold pad-t-2 pad-b-1-2">Personal details</h2>
+              <div class="grid">
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="name">Full name</label>
+                  <input id="name" name="name" required>
+                  <p class="normal italic micro">Your full legal name, e.g. “Elizabeth Bradley”.</p>
+                </div>
+
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="date">Date of birth</label>
+                  <input id="date" type="date">
+                </div>
+                <div class="tshirt push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="gender">Gender</label>
+                  <select id="gender" name="gender">
+                    <option value="">Select one</option>
+                    <option>Female</option>
+                    <option>Male</option>
+                    <option>LGBT</option>
+                  </select>
+                </div>
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="email">Email</label>
+                  <input id="email" type="email" required>
+                </div>
+                <div class="phone push pad-b-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="tel">Phone number</label>
+                  <input id="tel" type="tel" required>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div>
+              <h2 class="bold giga push pad-b-1-2 pad-t">Address</h2>
+              <div class="grid">
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="street">Street address</label>
+                  <input id="street" type="text" required>
+                </div>
+                <div class="citi push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="city">City</label>
+                  <input id="city" type="text" required>
+                </div>
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="province">Province</label>
+                  <select id="province" name="province">
+                    <option value="">Select a province</option>
+                    <option>Alberta</option>
+                    <option>British Columbia</option>
+                    <option>Manitoba</option>
+                    <option>New Brunswick</option>
+                    <option>Newfoundland & Labrador</option>
+                    <option>Northwest Territories</option>
+                    <option>Nova Scotia</option>
+                    <option>Nunavut</option>
+                    <option>Ontario</option>
+                    <option>Prince Edward Island</option>
+                    <option>Québec</option>
+                    <option>Saskatchewan</option>
+                    <option>Yukon</option>
+                  </select>
+                </div>
+                <div class="postal push pad-b-2 unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="code">Postal code</label>
+                  <input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="code" required>
+                </div>
+
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="environment">Environment Type</label>
+                  <select id="environment" name="environment">
+                    <option value="">City</option>
+                    <option>Suburban</option>
+                    <option>Country</option>
+                  </select>
+                </div>
+
+                <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+                  <label for="home">Home Style</label>
+                  <select id="home" name="home">
+                    <option value="">Select one</option>
+                    <option>House</option>
+                    <option>Semi-detached</option>
+                    <option>Townhouse</option>
+                    <option>Apartment</option>
+                    <option>Mobile Home</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+              </div>
+            </div>
+            <hr>
+            <fieldset>
+              <legend class="giga pad-t">Is someone home during the day?</legend>
+              <input id="yes" type="radio" name="license">
+              <label for="yes">Yes</label>
+
+              <input id="no" type="radio" name="license">
+              <label for="no">No</label>
+            </fieldset>
+
+            <fieldset>
+              <legend class="giga">Is your yard fully fenced and secure enough to contain any dog?</legend>
+              <input id="yeah" type="radio" name="truck">
+              <label for="yeah">Yes</label>
+
+              <input id="na" type="radio" name="truck">
+              <label for="na">No</label>
+            </fieldset>
+
+            <fieldset>
+              <legend class="giga">Will you take your dog to obedience class?</legend>
+              <input id="yas" type="radio" name="aid">
+              <label for="yas">Yes</label>
+
+              <input id="ne" type="radio" name="aid">
+              <label for="ne">No</label>
+            </fieldset>
+
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+              <label for="hour">How many working hours will your dog be left alone in a day?</label>
+              <input id="hour" type="hour" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+              <label for="keep">Where will your dog be kept during the day?</label>
+              <input id="keep" type="keep" required>
+            </div>
+
+
+            <hr>
+            <div class="push pad-b">
+              <label for="info" class="giga pad-b-2 pad-t">Please let us know any comments or questions you may have.</label>
+              <textarea id="info" name="details" rows="8" cols="80" required></textarea>
+            </div>
+            <hr>
+
+            <div class="push pad-t-2 pad-b-2">
+              <button class="btn mega" type="submit">Submit</button>
+            </div>
+
+          </form>
+          <footer>
+            <p class="island text-center">© Loyal Rescue Organization</p>
+          </footer>
+        </div>
+      </section>
+
+    </div>
+  </main>

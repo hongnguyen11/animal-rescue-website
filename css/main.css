@@ -20,17 +20,17 @@ html {
 
 .nav a {
   text-decoration: none;
-  background-color: #467366;
-  border: 3px solid #2d5a4d;
-  border-radius: 8px;
+  /* background-color: #467366; */
+  /* border: 3px solid #2d5a4d; */
+  /* border-radius: 8px; */
   color: #fff;
 }
 
 .nav a:hover {
   background-color: #fff;
   color: #145b1d;
-  background-image: url("../images/leaf-icon.svg");
-  background-repeat: no-repeat;
+  /* background-image: url("../images/leaf-icon.svg"); */
+  /* background-repeat: no-repeat; */
 }
 
 .banner {
@@ -41,14 +41,81 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  padding-top: 180px;
+  padding-top: 350px;
 }
 
 .banner-content {
-  background: url("../images/two-leaves.svg");
+  /* background: url("../images/two-leaves.svg"); */
   background-repeat: no-repeat;
   padding-top: 120px;
   background-size: 100px;
+}
+
+h2 {
+  color: #588477;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #588477;
+  padding: .5em 3.75em;
+  border-radius: 4px;
+}
+
+.buttons a:hover {
+  background-color: #fff;
+  color: #145b1d;
+  border: 1.5px solid #145b1d;
+}
+
+input, textarea, select {
+  border: 2px solid #6e8c62;
+}
+
+#dig {
+  border-color: #6e8c62;
+}
+
+.footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  text-align: center;
+  border-color: #6e8c62;
+}
+
+hr {
+  border: .5px solid #70ad55;
+}
+
+.one {
+  display: block;
+}
+
+header p {
+  max-width: 36em;
+}
+
+fieldset {
+  border: none;
+}
+
+.no-line {
+  text-decoration: none;
+  color: #6e8c62;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .callyou, .tshirt, .phone, .citi, .postal {
+    padding-left: 1em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
