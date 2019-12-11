@@ -114,6 +114,22 @@ fieldset {
   display: none;
 }
 
+.btn-banner {
+  border-color: #649867;
+  color: #649867;
+}
+
+.btn-banner:hover,
+.btn-banner:focus {
+  background-color: #649867;
+  color: #fff;
+  border-color: #649867;
+}
+
+.btn-submit {
+  color: #fff;
+}
+
 @media only screen and (min-width: 38em) {
 
   .callyou, .tshirt, .phone, .citi, .postal {
