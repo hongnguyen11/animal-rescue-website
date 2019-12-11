@@ -11,12 +11,16 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 </head>
 <body>
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
 
   <header class="masthead grid grid-middle island-1-2">
     <div class="logo unit xs-1 s-1 m-1 l-1-4">
       <p class="exa push-0 gutter-1-4 pad-b-1-4">Loyal Rescue</p>
     </div>
-    <nav class="nav unit xs-1 s-1 m-1 l-3-4">
+    <nav role="navigation" id="nav" class="nav unit xs-1 s-1 m-1 l-3-4">
       <ul class="list-group-inline push-0">
         <li class="island-1-8">
           <a class="block text-center gutter pad-t-1-4 pad-b-1-4 milli" href="index.html">Home</a>
@@ -184,7 +188,7 @@
             </div>
 
           </form>
-          <footer>
+          <footer role="contentinfo">
             <p class="island text-center">© Loyal Rescue Organization</p>
           </footer>
         </div>
