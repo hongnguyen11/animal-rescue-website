@@ -3,7 +3,7 @@ html {
 }
 
 .masthead {
-  background-color: #588477;
+  background-color: #145b1d;
   border-bottom: 3px solid #467366;
   border-top: 3px solid #467366;
   background-position: left top, left bottom, left top;
@@ -23,12 +23,13 @@ html {
   color: #fff;
 }
 
-.nav a:hover {
+.nav a:hover,
+.nav a:focus {
   background-color: #fff;
   color: #145b1d;
 }
 
-.banner {
+.bannerr {
   background:
     linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%),
     url("../images/banner3.jpg");
@@ -39,7 +40,7 @@ html {
   padding-top: 350px;
 }
 
-.banner-content {
+.bannerr-content {
   background-repeat: no-repeat;
   padding-top: 120px;
   background-size: 100px;
@@ -52,7 +53,7 @@ h2 {
 .buttons a {
   text-decoration: none;
   color: #fff;
-  background-color: #588477;
+  background-color: #145b1d;
   padding: .5em 3.75em;
   border-radius: 4px;
 }
@@ -122,6 +123,7 @@ fieldset {
 
 .btn-submit {
   color: #fff;
+  background-color: #145b1d;
 }
 
 @media only screen and (min-width: 38em) {
